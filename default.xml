@@ -587,7 +587,13 @@
   
   <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
-     
+  <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5_insignal" />
+  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" />  
+  <project path="hardware/samsung_slsi/exynos5430" name="bonuzzz/android_hardware_samsung_slsi_exynos5430" remote="github" revision="cm-12.0" />  
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-archi" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-4.9-archi" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4" />
+  
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" /> 
