@@ -634,9 +634,13 @@
   <project path="vendor/moto/shamu" name="pjgraber03/vendor_moto_shamu" remote="github" revision="5.1" />
 
   <!--Additional Repos-->
-  
   <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
+  <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-12.1" />
+  <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" remote="github" revision="cm-12.1" />
+  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-12.1" />  
+  <project path="hardware/samsung_slsi/exynos5430" name="bonuzzz/android_hardware_samsung_slsi_exynos5430" remote="github" revision="cm-12.1" />  
+  <project path="kernel/samsung/slte" name="bonuzzz/bliss_kernel_samsung_slte" remote="github" revision="master" />  
      
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
